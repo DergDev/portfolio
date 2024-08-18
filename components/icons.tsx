@@ -19,9 +19,9 @@ export const Logo: React.FC<IconSvgProps> = ({
       <stop offset="100%" style={{ stopColor: "#FF8C00", stopOpacity: 1 }} />
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="23" height="23" rx="4" ry="4" fill="#282c34" stroke="url(#strokeGradient)" stroke-width="1"/>
+  <rect x="1" y="1" width="23" height="23" rx="4" ry="4" fill="#282c34" stroke="url(#strokeGradient)" strokeWidth="1"/>
 
-  <text x="50%" y="50%" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="url(#textGradient)" dy=".3em">JG</text>
+  <text x="50%" y="50%" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="12" fill="url(#textGradient)" dy=".3em">JG</text>
 </svg>
 );
 
